@@ -22,7 +22,7 @@ class Segi3Siku2(Shape):
     def cetak(self):
         super().cetak()
         print(f'''
-    Alas : {self.a} | Tinggi : {self.t}
+    Alas : {self.a} | Tinggi : {self.t} | Sisi Miring : {self.sisiMiring(self.a, self.t)}
     Luas : {self.hitLuas()}
     Keliling : {self.hitKeliling()}
         ''')
